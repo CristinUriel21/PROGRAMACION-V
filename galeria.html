@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con imágenes</title>
+    <style>
+        body {
+            background-color: rgb(218, 216, 214);
+            background-image: url('imagenes/fondo 2.jpg');
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            color: darkred;
+            margin-top: -50px;
+        }
+        table {
+            width: 80%;
+            position: relative;
+            top: 50px;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mi Galería</h1>
+    <table>
+        <tr>
+            <!-- ✅ Corregido: se quitaron comillas mal colocadas en el parámetro de la URL y se agregó la ruta completa -->
+            <td><a href="pagina2.php?imgn=imagenes/images3.jpg"><img src="imagenes/images3.jpg"></a></td>
+            <td><a href="pagina2.php?imgn=imagenes/images4.jpg"><img src="imagenes/images4.jpg"></a></td>
+            <td><a href="pagina2.php?imgn=imagenes/images5.jpg"><img src="imagenes/images5.jpg"></a></td>
+            <td><a href="pagina2.php?imgn=imagenes/images.jpg"><img src="imagenes/images.jpg"></a></td>
+        </tr>
+    </table>
+
+</body>
+</html>
