@@ -1,0 +1,56 @@
+/* Estilo para la imagen de fondo */
+body {
+    background-image: url('img/1.jpg'); /* ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    font-family: Arial,  sans-serif; /* Cambia la fuente */
+    color: #330bc4; /* Color blanco para el texto */
+    text-align: center; /* Centra el texto */
+
+}
+
+/* Centrar el formulario */
+form {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 100px auto; /* Centrando el formulario horizontal y verticalmente */
+    text-align: center; /* Centrar el texto en el formulario */
+}
+
+/* Estilo para las etiquetas y campos de entrada */
+label, input[type="submit"] {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background-color: #c40808; /* Color de fondo verde */
+    color: #ffffff; /* Color del texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 auto; /* Centrando el botón */
+    display: block; /* Asegurarse de que ocupe todo el ancho disponible */
+    
+   
+}
+
+/* Cambiar color al pasar el cursor sobre el botón */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
