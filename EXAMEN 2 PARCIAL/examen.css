@@ -1,0 +1,80 @@
+/* General */
+body {
+    background-image:url(im2.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título */
+h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Entradas */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Radios */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Botón */
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Resultados */
+h3 {
+    text-align: center;
+    color: #27ae60;
+}
+
+.resultado {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-left: 5px solid #27ae60;
+    border-radius: 5px;
+}
